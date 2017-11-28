@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\services\catalog\Catalog.API\Catalog.API.csproj" />
+    <ProjectReference Include="..\..\..\src\services\identity\IdentityCore.Infrastructure\IdentityCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\services\identity\IdentityCore\IdentityCore.csproj" />
+    <ProjectReference Include="..\..\..\src\services\Messaging\Messaging.API\Messaging.API.csproj" />
+  </ItemGroup>
+
+</Project>

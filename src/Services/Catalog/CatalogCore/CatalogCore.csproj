@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BusinessLogic\Models\" />
+    <Folder Include="BusinessLogic\Services\" />
+    <Folder Include="Data\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Persistence\DomainModel\" />
+    <Folder Include="Persistence\Repositories\" />
+  </ItemGroup>
+
+</Project>

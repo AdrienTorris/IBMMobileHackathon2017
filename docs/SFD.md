@@ -1,0 +1,1 @@
+# Spécifications fonctionnelles détaillées
